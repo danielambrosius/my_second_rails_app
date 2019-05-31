@@ -1,4 +1,39 @@
 body {
-  background-color: white; }
+  background-color: white;
+  font-family: Courier New, Courier, monospace; }
+
+div.header {
+  display: grid;
+  background-color: #00b8a9;
+  grid-template-columns: repeat(3, 33.3333333333%);
+  border: 5px solid #f6416c;
+  border-radius: 0 0 5px 5px; }
+  div.header p {
+    font-weight: bold;
+    margin: 0;
+    border: 1px solid #f6416c;
+    text-align: center; }
+
+.flash {
+  background-color: #f8f3d4;
+  margin: 0 auto 0 0;
+  text-align: center;
+  text-decoration: underline overline; }
+
+div.main {
+  margin: 5% 5%;
+  border: 5px solid #f6416c; }
+  div.main h1, div.main h2, div.main h3, div.main h4 {
+    border: 5px solid #ffde7d;
+    border-radius: 4px;
+    background-color: #00b8a9; }
+  div.main p {
+    background-color: #00b8a9;
+    margin: 0; }
+  div.main textarea {
+    border: 3px solid #f8f3d4;
+    border-radius: 6px;
+    width: 80%;
+    margin: 1% 10%; }
 
 /*# sourceMappingURL=style.css.map */
