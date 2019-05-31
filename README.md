@@ -1,5 +1,11 @@
 # README
 
+## TODO:
+1. Create site-wide header 
+1. Style it up (try using sass)
+1. Try to implement ownership of articles
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
