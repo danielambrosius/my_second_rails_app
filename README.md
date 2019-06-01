@@ -1,5 +1,7 @@
 # README
 
+Check it out [here](https://glacial-refuge-28698.herokuapp.com/)
+
 ## TODO:
 1. ~~Create site-wide header~~ 
 1. ~~Style it up (try using sass)~~
