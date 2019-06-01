@@ -17,10 +17,8 @@
 
     <div class="main">
       <%= yield %>
-    </div>
-     
-     <div class="footer">
-       <hr>
+    
+      <hr>
         <h6>
           <% if logged_in? %>
             <%= "Logged in as #{current_user.email}" %>
@@ -29,7 +27,9 @@
             <%= link_to "(login)", login_path%>
           <% end %>
         </h6>
-     </div>
 
+
+    </div>
+    <p class="sign">© 2019 Daniel Prince</p>
   </body>
 </html>

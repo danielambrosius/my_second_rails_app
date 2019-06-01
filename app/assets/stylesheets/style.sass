@@ -1,0 +1,138 @@
+$dark: #00b8a9
+$bgcol: #f8f3d4
+$powerful: #f6416c
+$nice: #ffde7d
+
+
+html
+    height: 100%
+
+body
+    background: linear-gradient(146deg, rgba(248,243,212,1) 0%, rgba(0,184,169,0.5) 79%, rgba(255,222,125,0.5) 100%)
+    height: 100%
+    background-repeat: no-repeat
+    background-attachment: fixed
+    margin: 0
+    font-family: Courier New, Courier, monospace
+    
+div.header
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    align-content: flex-end
+
+    background-color: $nice
+    border: 5px solid $nice
+    border-radius: 0 0 5px 5px
+
+    .nav
+        letter-spacing: 0.3em
+        color: $powerful
+
+    .links
+        display: flex
+        flex-flow: row wrap
+        justify-content: flex-end
+
+    p
+        font-weight: bold
+        margin: 3px 5px 0
+        text-align: center
+
+.flash
+    background-color: $nice
+    margin: 0 auto 0 0
+    text-align: center
+    border-top: 1px dashed black
+    border-bottom: 2px solid $nice
+    border-bottom-left-radius: 5px
+    border-bottom-right-radius: 5px
+
+.navlinks
+    text-align: right
+    padding: 1% 4%
+    margin: 0
+a 
+    color: $powerful
+a:hover
+    color: $dark
+
+div.main
+    background-color: $bgcol
+    margin: 5% 5%
+    border: 4px solid $dark
+    border-radius: 20px
+
+    h1
+        margin: 0
+        padding: 10px 20px
+        background-color: $dark
+        color: $bgcol
+        letter-spacing: 0.3em
+        border-top-left-radius: 10px
+        border-top-right-radius: 10px
+    img
+        width: 80%
+        margin: 0 10%
+    
+    h3
+        color: $powerful
+    h3:hover
+        color: $dark
+    
+    .comment-container
+        border-top: 1.6px solid $dark
+        border-bottom: 1.6px solid $dark
+        border-radius: 3px
+        margin: 3% 0
+    
+    h4 
+        margin: 0 auto
+        color: $bgcol
+        background-color: $dark
+    
+    .comment
+        border-top: 1px dashed $dark
+        border-bottom: 1px dashed $dark
+        margin: 0
+        padding: 10px 5%
+    
+    .comment~p
+        background-color: $nice
+        font-size: 70%
+        margin: 0 auto
+        padding: 3px
+        text-align: right
+    
+    hr
+        border-top: 1px dashed black
+        border-style: none none dashed
+        margin: 0
+    
+    h6
+        font-size: 100%
+        color: $bgcol
+        background-color: $dark
+        text-align: right
+        margin: 0 auto
+        padding: 10px
+        border-bottom-left-radius: 10px
+        border-bottom-right-radius: 10px
+form
+    margin: 0 5%
+
+    textarea
+        width: 100%
+        height: 100px
+    
+    textarea, input
+        border: 3px solid $dark
+        border-radius: 8px
+        background-color: $bgcol
+
+.sign
+    fonnt-size: 120%
+    font-weight: 900
+    text-align: right
+    margin: 1% 5%
+    color: $dark
